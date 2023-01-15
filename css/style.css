@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#login-screen {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, i {
+  color: #4267B2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-login {
+  font-family: 'Lobster', cursive;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 250px;
+    margin: 8px 0;
+    border: 0.1px #dbdbdb solid;
+    border-radius: 1px;
+}
+
+input {
+  background: #fafafa;
+}
+
+.login {
+  padding: 9.5px;
+  border: 0.1px #dbdbdb solid;
+  border-radius: 1px;
+  width: 210px;
+}
+
+.bottom {
+  background: rgb(0, 174, 255);
+  color: white;
+  padding: 6px 40%;
+  border: 0px;
+  border-radius: 3px;
+  font-weight: 799;
+}
+
+.lane-box {
+  margin: 10px 40px 18px;
+}
+
+.lane {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  position: relative;
+}
+
+.lane hr {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  width: 100%;
+  z-index: 2;
+}
+
+.lane span {
+  background: white;
+  z-index: 3;
+  padding: 0px 10px;
+}
+
+.create-acc {
+  border: 0.1px #dbdbdb solid;
+  border-radius: 1px;
+  width: auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.app {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.google {
+  width: 135px;
+  margin-left: 30px;
+}
+
+.micro {
+  width: 115px;
+  margin-left: 6px;
+}
